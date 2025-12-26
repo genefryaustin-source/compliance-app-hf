@@ -14,4 +14,4 @@ jobs:
        env:
          HF_TOKEN: ${{ secrets.HF_TOKEN }}
        run: |
-         git push https://<HF_USERNAME>:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/<HF_USERNAME>/<SPACE_NAME> main
+         git push https://efrylinkcompliance:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/efrylinkcompliance/compliance-ollama-portal main
